@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+* a{
+    text-decoration: none;
+}
+
+body {
+    font-size: 120%;
+    background-image:url('https://cdn.discordapp.com/attachments/1054322057405534228/1094562027478978610/wp10423023.png');
+    z-index:-1;
+    background-size:cover;
+    height: 100vh;
+    opacity: 10;
+}
+
+.header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #33406F;
+    text-align: center;
+    border: 1px solid #b0c4de;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+form {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #b0c4de;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.input_group {
+    color: white;
+}
+
+.homeheader {
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    background-color: rgb(51, 64, 111, 0.5);
+}
+
+.homeheader {
+    text-align: center;
+  }  
+
+
+.input_group {
+    margin: 10px 0px 10px 0px;
+}
+
+.input_group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input_group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5f9ea0;
+    border: none;
+    border-radius: 5px;
+}
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+.success {
+    transform: translate(50%, -150%);
+    width: 50%;
+    border-radius: 80px;
+    color: #33406F;
+    background:#8E9BCA;
+    border: 1px solid #33406F;
+    margin-bottom: 80px;
+    animation: fadeOut 4s forwards;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    width: 550px;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+div.option {
+    text-align: center;
+  }
+
+
+.option a {
+    position: relative;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 40px;
+    text-shadow: 0 0 3px #000000;
+}
+
+/* .option ul{
+    display: flex;
+} */  
+
+.option a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.option a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.option ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .option ul li {
+    margin: 0 10px;
+  }
+
+
+  
+/* .option {
+    font-size: 1.5rem;
+    position: relative;
+    color: white;
+    width: 100%;
+    height: 7vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.option ul{
+    display: flex;
+} */
+
+/* .option ul li{
+    color: white;
+    padding: 0 130px;
+    font-weight: bold;
+    font-size: 22px;
+} */
+
+.homecontent {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+    width: 100%;
+    color: white;
+    background-image:url('https://media.discordapp.net/attachments/1093881474794664017/1093936097395998811/image.png?width=1177&height=662');
+    z-index:-1;
+    background-size:cover;
+    /* height: 100vh; */
+    height: 88%;
+    align-items: center;
+    opacity: 10;
+    display: flex;
+}
+
+.welcome{
+    position: absolute;
+    color: #fff;
+    /* padding-top: 200px;
+    padding-left: 400px; */
+    transform: translate(390px, 250px);
+    font-size: 2rem;
+    text-shadow: 0 0 3px #999;
+}
+
+.topic{
+    flex-basis: 50%;
+}
+
+/* .homecontent .topic,.grid-card{
+    width: 50%;
+    position: relative;
+} */
+
+
+.homecontent .topic{
+    /* padding-right: 500px; */
+    color: #fff;
+    /* padding-left: 470px; */
+}
+
+.homecontent .topic h3{
+    padding-top: 10rem;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.homecontent .topic h1{
+    font-size: 4rem;
+}
+
+.homecontent .topic p{
+    opacity:.6;
+    font-size: 20px;
+}
+
+.nametable {
+    background-color: blue;
+    color: red;
+}
+
+.tablehomeheader {
+    /* transform: translate(2700%, 0%); */
+    width: 20px;
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    
+}
+
+.timetable {
+    border-radius: 10px;
+    text-align: center;
+    color: #33406F;
+    background-color: #33406F;
+    opacity: .9;
+}
+
+.dayoption {
+    /* opacity: .9;
+    font-weight: bold;
+    font-size: 25px; */
+    /* background-image:url('https://media.discordapp.net/attachments/1093881474794664017/1093936097395998811/image.png?width=1177&height=662');
+    background-size:cover; */
+    text-align: center;
+}
+
+.addmain {
+    color: white;
+    width: 1400px;
+    height: 30px;
+}
+
+.button{
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    text-align: center;
+}
+
+.formbtn{
+    background: none;
+    border: 2px solid #000;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+}
+
+.formbtn:hover{
+    color: #fff;
+    border: 2px solid #5f9ea0;
+}
+
+.formbtn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.5;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+
+.formbtn::before{
+    transform: scaleY(0);
+}
+
+.formbtn:hover::before{
+    transform: scaleY(1)
+}
+
+/* .dayoption{
+    position: absolute;
+    text-align: center;
+} */
+
+.btnoak{
+    background: none;
+    border: 2px solid #000;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+}
+
+.btnoak:hover{
+    color: #fff;
+    border: 2px solid #5f9ea0;
+}
+
+.btnoak::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #5f9ea0;
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+
+.btnoak::before{
+    transform: scaleX(0);
+}
+
+.btnoak:hover::before{
+    transform: scaleX(1)
+}
+
+.card{
+    width: 260px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    /* background-image: url('https://www.infobae.com/new-resizer/r_ZeezEyDyhbbWulKMOJUybSLkQ=/1200x900/filters:format(webp):quality(85)//arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/SPT35Y22RREGNORTIJ5VIED2XI.jpg'); */
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5;
+}
+
+.card1{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/258/934/350/ball-game-equipment-soccer-ball-equipment-wallpaper-preview.jpg');
+}
+
+.card2{
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/06/Free-Desktop-Volleyball-Wallpapers-Downlaod.jpg');
+
+}
+
+.card3{
+    background-image: url('https://images.pexels.com/photos/976873/pexels-photo-976873.jpeg?cs=srgb&dl=pexels-josh-sorenson-976873.jpg&fm=jpg');
+    width: 560px;
+}
+
+/* .card4{
+    background-image: url('https://media.discordapp.net/attachments/910501698424930347/1095196686864883844/image.png');
+} */
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
